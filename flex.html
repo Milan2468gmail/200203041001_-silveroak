@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>flex</title>
+        <style type="text/css">
+            body {
+            margin: 0;
+            padding: 0;
+            font-family: verdana;
+          }
+    
+          .main-container {
+            border: 4px solid #792fbe;
+            display: flex; /* block level flex container */
+          }
+          .main-container2 {
+            border: 4px solid #635570;
+            display: inline-flex; /* block level flex container */
+            flex-flow: row-reverse wrap-reverse;
+          }
+          .main-container3{
+            border: 4px solid #4d3c5e;
+            display: inline-flex;
+            flex-direction: column-reverse;
+
+          }
+    
+          .item {
+            color: #a74949;
+            font-size: 1rem;
+            padding: 0.75rem;
+            text-align: center;
+           
+          }
+          .item-4a {
+            background-color:#642364;
+            flex-basis: 23%;
+          }
+          .item-7a {
+            background-color:#572957;
+            flex-basis: 200px;
+          }
+          .item-8a{
+            background-color:#525a31;
+            flex-grow: 9;
+            
+          }
+          .item-9a{
+            background-color:#421d42;
+            flex-shrink:10%;
+          }
+
+          .item-1 {
+            background-color:#462746;
+          }
+    
+          .item-2 {
+            background-color:#4c3363;
+          }
+    
+          .item-3 {
+            background-color:#381f50;
+          }
+    
+          .item-4 {
+            background-color:#5c3044;
+          }
+    
+          .item-5 {
+            background-color:#f367f3;
+          }
+          
+          .item-6 {
+            background-color:#96f3c8;
+          }
+    
+          .item-7 {
+            background-color:#a3ddac;
+          }
+    
+          .item-8 {
+            background-color:#7fa87e;
+          }
+    
+          .item-9 {
+            background-color: #548b56;
+          }
+          
+          .item-10 {
+            background-color:#236b42;
+          }
+    
+        </style>
+        
+        
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="item item-1">item-1</div>
+            <div class="item item-2">item-2</div>
+            <div class="item item-3">item-3</div>
+            <div class="item item-4">item-4</div>
+            <div class="item item-5">item-5</div>
+            <div class="item item-6">item-6</div>
+            <div class="item item-7">item-7</div>
+            <div class="item item-8">item-8</div>
+            <div class="item item-9">item-9</div>
+            <div class="item item-10">item-10</div>
+        </div><hr>
+        <div class="main-container2">
+            <div class="item item-1">item-1</div>
+            <div class="item item-2">item-2</div>
+            <div class="item item-3">item-3</div>
+            <div class="item item-4">item-4</div>
+            <div class="item item-5">item-5</div>
+            <div class="item item-6">item-6</div>
+            <div class="item item-7">item-7</div>
+            <div class="item item-8">item-8</div>
+            <div class="item item-9">item-9</div>
+            <div class="item item-10">item-10</div>
+        </div><hr>
+        <div class="main-container">
+            <div class="item item-1">item-1</div>
+            <div class="item item-2">item-2</div>
+            <div class="item item-3">item-3</div>
+            <div class="item item-4a">item-4 as per contain</div>
+            <div class="item item-5">item-5</div>
+            <div class="item item-6">item-6</div>
+            <div class="item item-7a">item-7as per contain </div>
+            <div class="item item-8">item-8</div>
+            <div class="item item-9">item-9</div>
+            <div class="item item-10">item-10</div>
+        </div><hr>
+        <div class="main-container3">
+            <div class="item item-1">item-1</div>
+            <div class="item item-2">item-2</div>
+            <div class="item item-3">item-3</div>
+            <div class="item item-4">item-4 </div>
+            <div class="item item-5">item-5</div>
+            <div class="item item-6">item-6</div>
+            <div class="item item-7">item-7 </div>
+            <div class="item item-8">item-8</div>
+            <div class="item item-9">item-9</div>
+            <div class="item item-10">item-10</div>
+        </div><hr>
+        <div class="main-container">
+          <div class="item item-1">item-1</div>
+          <div class="item item-2">item-2</div>
+          <div class="item item-3">item-3</div>
+          <div class="item item-4">item-4</div>
+          <div class="item item-5">item-5</div>
+          <div class="item item-6">item-6</div>
+          <div class="item item-7">item-7</div>
+          <div class="item item-8a">item-8a</div>
+          <div class="item item-9a">item-9a</div>
+          <div class="item item-10">item-10</div>
+      </div><hr>
+    </body>
+</html>

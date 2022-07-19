@@ -1,0 +1,180 @@
+#container {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#container #logo {
+    position: absolute;
+    left: 5%;
+    top: 5px;
+    opacity: 3;
+    z-index: 997;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+#navbar {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fdfefe;
+    display: grid;
+    place-items: center;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar ul li {
+    font-size: 20px;
+    margin: 0 45px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar ul li a:hover {
+    color: #165397;
+}
+
+#navbar ul #login {
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    right: 12%;
+    display: grid;
+    place-items: center;
+    background: #165397;
+    border-radius: 10px 20px;
+}
+
+#navbar ul #login a {
+    color: #e9e9e9;
+}
+
+#navbar ul #login:hover {
+    background: #000;
+}
+
+#navbar ul #registration {
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    right: 2%;
+    display: grid;
+    place-items: center;
+    background: #165397;
+    border-radius: 10px 20px;
+}
+
+#navbar ul #registration a {
+    color: #e9e9e9;
+}
+
+#navbar ul #registration:hover {
+    background: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox {
+    width: 330px;
+    height: 420px;
+    background: white;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avtar {
+    width: 100px;
+    height: 100px;
+    border-radius: -50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: blue;
+    color: white;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #000;
+}
+
+.loginbox a:hover {
+    color: blue;
+}
